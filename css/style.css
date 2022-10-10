@@ -149,10 +149,6 @@
     color: black;
 }
 
-.n-y:hover {
-    color: #ff414d;
-}
-
 .footer {
     background-color: #10151c;
 }
@@ -174,4 +170,8 @@
 
 .card-h {
     height: auto;
+}
+
+.fut-col:hover {
+    color: #ff414d !important;
 }
