@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Travel Journey</title>
+    <!-- bootstrap main css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- /bootstrap main css -->
+    <!-- style css -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- /style css -->
+</head>
+
+<body>
+    <!-- header -->
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-light d-flex flex-wrap">
+                    <div class="flex-grow-1">
+                        <span class="text-danger ms-3">Free Call</span>
+                        <span class="text-center"> +1 234 456 78910</span>
+                    </div>
+                    <ul class="d-flex gap-4">
+                        <li>FACEBOOK Book</li>
+                        <li>TWITTER</li>
+                        <li>DRIBBBLE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg position-absolute start-0 end-0 top-25 about-comp">
+        <div class="container">
+            <span class="text-light">
+                <h4>Directone <br />DIRECTORY AND LISTING</h4>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">LISTING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONTACT</a>
+                    </li>
+                    </form>
+                    <button type="submit" class="btn btn-danger mb-3 mx-5">&#43; ADD LISTING</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- /navbar -->
+    <section class="img-main p-5">
+        <div class="container">
+            <div class="col-12 text-center text-light">
+                <h1 class="display-1 py-5">Let's Explore Your <br />Awesome City</h1>
+                <p class="mt-5">Find great places to stay, eat, shop, or visit from local experts.</p>
+            </div>
+            <div class="col-auto d-flex justify-content-center mt-5 p-5">
+                <form class="row g-2 g-lg-2">
+                    <div class="col-12 col-lg-3">
+                        <label class="visually-hidden">What are you Locking for?</label>
+                        <input type="text" class="form-control" id="inputPassword2"
+                            placeholder="What are you Looking for?">
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <label class="visually-hidden">Search Location</label>
+                        <input type="text" class="form-control" id="inputPassword2" placeholder="Search Location">
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All Categories</option>
+                            <option value="1">Food & Drinks</option>
+                            <option value="2">Hotel</option>
+                            <option value="3">Shopping</option>
+                            <option value="3">Beauty</option>
+                            <option value="3">Fitness</option>
+                            <option value="3">Game</option>
+                            <option value="3">Fitness</option>
+                            <option value="3">Circus</option>
+                            <option value="3">Bar & Club</option>
+                            <option value="3">Bar & Sports</option>
+                            <option value="3">Bar & Health</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <button type="submit" class="btn btn-danger mb-3">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /header -->
+    <!-- main -->
+    <section class="card-box">
+        <!-- cards -->
+        <div class="container">
+            <div class="row ">
+                <div class="d-flex flex-wrap justify-content-center gap-2 c-tp">
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Food & Drinks.</h5>
+                            <p><span class="text-danger ">101</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;" id="hotel">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-hotel"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Hotels</h5>
+                            <p><span class="text-danger sp-text">40</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-gift"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Shopping</h5>
+                            <p><span class="text-danger ">100</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Beauty</h5>
+                            <p><span class="text-danger ">36</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Fitness</h5>
+                            <p><span class="text-danger ">30</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Bar & Club</h5>
+                            <p><span class="text-danger ">12</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Games</h5>
+                            <p><span class="text-danger ">103</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Place</h5>
+                            <p><span class="text-danger ">40</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Circus</h5>
+                            <p><span class="text-danger ">100</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Theater</h5>
+                            <p><span class="text-danger ">36</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Sports</h5>
+                            <p><span class="text-danger ">30</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 200px;">
+                        <div class="food-drink m-auto">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-text">Health</h5>
+                            <p><span class="text-danger ">12</span>
+                                LISTINGS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /cards -->
+    </section>
+    <!-- papular cards -->
+    <section class="card-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-danger text-center mt-5">OUR LISTING</p>
+                    <h1 class="display-3 text-center">Popular Listing</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-center gap-4 mt-5">
+                    <div class="card c-box" style="width: 288px;">
+                        <img src="/dream-travel/images/hotel-out-door.webp" alt="out-door-view">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">FOOD & DRINKS</p>
+                            <h4 class="mt-2">Japanese Restaurant</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card c-box" style="width: 288px;">
+                        <img src="/dream-travel/images/swimming-pool.webp" alt="water-pool">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">HOTEL</p>
+                            <h4 class="mt-2">Harbor Lights Hotel</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card c-box" style="width: 288px;">
+                        <img class="img-fluid" style="height: 190px;" src="/dream-travel/images/indor-area.webp"
+                            alt="in-door-view">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">SHOPPING</p>
+                            <h4 class="mt-2">MS Center Mall of Asia</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card c-box" style="width: 288px;">
+                        <img src="/dream-travel/images/gym.webp" style="height: 190px;" alt="gym">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">GYM FITNESS</p>
+                            <h4 class="mt-2">Maxout Fitness Gym</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /populer cards -->
+    <!-- image with content -->
+    <section class="card-box">
+        <div class="container py-5">
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center align-content-center">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <img src="/dream-travel/images/view-location.webp" alt="view-location" class="img-fluid h-100">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-7 bg-danger p-5 text-light d-flex flex-wrap">
+                        <div>
+                            <p>SPECIAL OFFERS</p>
+                            <h3 class="display-6">We Have Special Offers Every <br /> Now and Then</h3>
+                        </div>
+                        <div class="s-offer">
+                            <a href="#"> <button type="submit" class="btn btn-dark">SPECIAL OFFERS</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /image with content -->
+    <!-- listing card -->
+    </section>
+    <section class="card-box">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-danger text-center mt-5">OUR LISTING</p>
+                    <h1 class="display-3 text-center">Popular Listing</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/girls-gang.webp" alt="girls-gand">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">BEAUTY</p>
+                            <h4 class="mt-2">Japanese Restaurant</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/baar.webp" alt="baar">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">BAR & CLUB</p>
+                            <h4 class="mt-2">Harbor Lights Hotel</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/ship.webp" alt="ship">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">CIRCUS</p>
+                            <h4 class="mt-2">MS Center Mall of Asia</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/theater.webp" alt="theater">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">THEATER</p>
+                            <h4 class="mt-2">Maxout Fitness Gym</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/drama.webp" alt=" drama">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">THEATER</p>
+                            <h4 class="mt-2">Japanese Restaurant</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/Nordic-skiing.webp" alt="nordic-skiing">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">SPORTS</p>
+                            <h4 class="mt-2">Harbor Lights Hotel</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/basketball.webp" alt="basketball">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">GAME</p>
+                            <h4 class="mt-2">MS Center Mall of Asia</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row justify-content-center gap-4 mt-5">
+                    <div class="card c-box">
+                        <img src="/dream-travel/images/light-tree.webp" alt="light-tree">
+                        <div class="card-body text-center position-relative ">
+                            <div class="text-center position-absolute top-0 start-50 translate-middle hunger-box">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p class="card-title mt-4 text-danger">PLACES</p>
+                            <h4 class="mt-2">Maxout Fitness Gym</h4>
+                            <p> <i class="fa-solid fa-location-dot text-danger"></i> Suite 721 New York NY 10016</p>
+                            <p> <i class="fa-solid fa-phone text-danger"></i> +00 123 456 7890</p>
+                            <div class="border border-1 bottom-0"></div>
+                            <div class=" text-start mt-3">
+                                <p>Review 5.0/5 <i class="fa-solid fa-star text-warning"></i>
+                                    (100)
+                                    <i class="fa-regular fa-heart ms-5 heart-fa"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about company client -->
+    <section class="card-box bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 py-3">
+                    <img src="/dream-travel/images/paris.webp" alt="love-paris" class="img-fluid mt-3">
+                </div>
+                <div class="col-12 col-lg-6 d-lg-flex flex-wrap align-content-center align-items-center bg-light">
+                    <p class="text-danger text-start mt-4">WELCOME TO DIRECTONE</p>
+                    <h1 class="">Directone A Directory & Listing</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean.</p>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                        is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-2 py-5">
+                        <div class="card card-about-company text-dark" style="width: 9rem;">
+                            <div class="card-body">
+                                <h2 class="card-title">50</h2>
+                                <p class="card-text text-danger">YEARS OF <br /> EXPERIENCED</p>
+                            </div>
+                        </div>
+                        <div class="card card-about-company text-dark" style="width: 9rem;">
+                            <div class="card-body">
+                                <h2 class="card-title">210k+</h2>
+                                <p class="card-text text-danger">YEARS OF <br /> EXPERIENCED</p>
+                            </div>
+                        </div>
+                        <div class="card card-about-company text-dark" style="width: 9rem;">
+                            <div class="card-body">
+                                <h2 class="card-title">450</h2>
+                                <p class="card-text text-danger">YEARS OF <br /> EXPERIENCED</p>
+                            </div>
+                        </div>
+                        <div class="card card-about-company text-dark" style="width: 9rem;">
+                            <div class="card-body">
+                                <h2 class="card-title">100</h2>
+                                <p class="card-text text-danger">YEARS OF <br /> EXPERIENCED</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /about company client -->
+    <!-- /listing cards -->
+    <!-- testimonial -->
+    <section class="card-box">
+        <div class="contaoner ">
+            <div class="row g-0">
+                <div class="col-12">
+                    <p class="text-danger text-center mt-5">TESTIMONIAL</p>
+                    <h1 class="text-center">Happy Poople</h1>
+                </div>
+                <div class="col-12 d-flex flex-wrap justify-content-center gap-4 mt-5 my-5">
+                    <div class="card position-relative bg-light text-dark p-3">
+                        <span
+                            class="fa fa-quote-left  text-light position-absolute top-0 start-50 translate-middle rounded-circle  bg-danger p-2"
+                            style="width:30px;height: 30px;"></span>
+                        <p class="mt-4">Far far away, behind the word mountains, far <br />
+                            from the countries Vokalia and Consonantia, <br />
+                            there live the blind texts.</p>
+                        <div class="d-flex">
+                            <img src="/dream-travel/images/img1.webp" alt="robert"
+                                style="border-radius: 100%;width:60px;object-fit:fill; " />
+                            <div class="ms-3">
+                                <span class="text-danger">Roger Scott</span>
+                                <p>MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card position-relative bg-light text-dark p-3">
+                        <span
+                            class="fa fa-quote-left  text-light position-absolute top-0 start-50 translate-middle rounded-circle  bg-danger p-2"
+                            style="width:30px;height: 30px;"></span>
+                        <p class="mt-4">Far far away, behind the word mountains, far <br />
+                            from the countries Vokalia and Consonantia, <br />
+                            there live the blind texts.</p>
+                        <div class="d-flex">
+                            <img src="/dream-travel/images/img2.webp" alt="robert"
+                                style="border-radius: 100%;width:60px;object-fit:fill; " />
+                            <div class="ms-3">
+                                <span class="text-danger">Roger Scott</span>
+                                <p>MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card position-relative bg-light text-dark p-3">
+                        <span
+                            class="fa fa-quote-left  text-light position-absolute top-0 start-50 translate-middle rounded-circle  bg-danger p-2"
+                            style="width:30px;height: 30px;"></span>
+                        <p class="mt-4">Far far away, behind the word mountains, far <br />
+                            from the countries Vokalia and Consonantia, <br />
+                            there live the blind texts.</p>
+                        <div class="d-flex">
+                            <img src="/dream-travel/images/img3.webp" alt="robert"
+                                style="border-radius: 100%;width:60px;object-fit:fill; " />
+                            <div class="ms-3">
+                                <span class="text-danger">Roger Scott</span>
+                                <p>MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /testimonial -->
+    <!-- find out -->
+    <section class="find-out">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <p class="text-danger">LET'S FIND OUT</p>
+                    <h1 class="display-3 text-light">How It Works</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /find out -->
+    <!-- img with card -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="/dream-travel/images/out-dowe-view.webp" class="img-fluid pic-mm" alt="out-view">
+                </div>
+                <div class="row card-g m-auto mt-5">
+                    <div class="card-group gap-4">
+                        <div class="card border border-0 rounded-2 py-4 blog-our">
+                            <i class="fa-solid fa-building text-center p-4 fs-1 m-auto
+                                w-25 rounded-circle border-1 bg-danger text-light mt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">1. Choose A
+                                    Category</h4>
+                                <p class="card-text mt-5 text-center">A small river named Duden flows by their place and
+                                    supplies it
+                                    with
+                                    the necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                    sentences fly into your mouth.</p>
+                            </div>
+                        </div>
+                        <div class="card border border-light rounded-2 py-4 blog-our">
+                            <i class="fa-solid fa-building text-center p-4 fs-1 m-auto
+                                 w-25 rounded-circle border-1 bg-danger text-light mt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">2. Find What You
+                                    Want</h4>
+                                <p class="card-text mt-5 text-center">A small river named Duden flows by their place and
+                                    supplies it with
+                                    the necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                    sentences fly into your mouth.</p>
+                            </div>
+                        </div>
+                        <div class="card border border-light rounded-2 py-4 blog-our">
+                            <i class="fa-solid fa-building text-center p-4 fs-1 m-auto
+                                  w-25 rounded-circle border-1 bg-danger text-light mt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">3. Select The Best
+                                    Place</h4>
+                                <p class="card-text mt-5 text-center">A small river named Duden flows by their place and
+                                    supplies it with
+                                    the necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                    sentences fly into your mouth.</p>
+                            </div>
+                        </div>
+                        <div class="card border border-light rounded-2 py-4 blog-our">
+                            <i class="fa-solid fa-building text-center p-4 fs-1 m-auto
+                                  w-25 rounded-circle  bg-danger text-light mt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">4. Explore The
+                                    Place</h4>
+                                <p class="card-text mt-5 text-center">A small river named Duden flows by their place and
+                                    supplies it
+                                    with
+                                    the necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                    sentences fly into your mouth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /img with card -->
+    <!-- our blog -->
+    <section class="blog-our">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-danger">OUR BLOG</p>
+                    <h1>Recent Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row 
+                    justify-content-center gap-4 mt-5 my-5 ">
+                    <div class="card card-h">
+                        <img src="/dream-travel/images/journy.webp" class="pic-h" alt="travel-journy">
+                        <p class="mt-3 ms-3"> DEC. 05, 2020 <span class="text-danger">3 COMMENTS</span></p>
+                        <h5 class="mt-3 ms-3">Explore The Best <br /> Restaurant in New York</h5>
+                        <p class="mt-3 ms-3">A small river named Duden flows <br />
+                            by their place and supplies it with <br /> the necessary
+                            regelialia.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row 
+                justify-content-center gap-4 mt-5 my-5 ">
+                    <div class="card  card-h">
+                        <img src="/dream-travel/images/out-views.webp" class="pic-h" alt="travel-journy">
+                        <p class="mt-3 ms-3"> DEC. 05, 2020 <span class="text-danger">3 COMMENTS</span></p>
+                        <h5 class="mt-3 ms-3">Explore The Best <br /> Restaurant in New York</h5>
+                        <p class="mt-3 ms-3">A small river named Duden flows <br />
+                            by their place and supplies it with <br /> the necessary
+                            regelialia.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row 
+                justify-content-center gap-4 mt-5 my-5 ">
+                    <div class="card card-h">
+                        <img src="/dream-travel/images/city-view.webp" class="pic-h" alt="travel-journy">
+                        <p class="mt-3 ms-3"> DEC. 05, 2020 <span class="text-danger">3 COMMENTS</span></p>
+                        <h5 class="mt-3 ms-3">Explore The Best <br /> Restaurant in New York</h5>
+                        <p class="mt-3 ms-3">A small river named Duden flows <br />
+                            by their place and supplies it with <br /> the necessary
+                            regelialia.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-wrap flex-row 
+                justify-content-center gap-4 mt-5 my-5 ">
+                    <div class="card card-h">
+                        <img src="/dream-travel/images/tracking.webp" class="pic-h" alt="travel-journy">
+                        <p class="mt-3 ms-3"> DEC. 05, 2020 <span class="text-danger">3 COMMENTS</span></p>
+                        <h5 class="mt-3 ms-3">Explore The Best <br /> Restaurant in New York</h5>
+                        <p class="mt-3 ms-3">A small river named Duden flows <br />
+                            by their place and supplies it with <br /> the necessary
+                            regelialia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /our blog -->
+    <!-- /main -->
+    <!-- footer -->
+    <section class="footer">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap text-light mt-4 py-4">
+                    <div>
+                        <h5>Directone <br />DIRECTORY AND LISTING</h5>
+                        <p>A small river named Duden flows by their
+                            <br />place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>About Us</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Terms &
+                                Conditions
+                            </li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i> Privacy</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i> Pricing
+                                Packages</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i> Pricing
+                                Packages</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="mb-4">
+                            <h2 class="ftco-heading-2">Explore</h2>
+                            <ul class="list-unstyled">
+                                <li class="list-group-item f-about"><a href="#"><span
+                                            class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+                                <li class="text-light"><a href="#"><span
+                                            class="fa fa-chevron-right mr-2"></span>Account</a>
+                                </li>
+                                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Listing</a></li>
+                                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Pricing Packages</a></li>
+                                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Pricing Packages</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Categories</h4>
+                        <ul>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Food & Drinks
+                            </li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Hotels</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Beauty</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Fitness</li>
+                            <li class="list-group-item f-about"><i class="fa-regular fa-greater-than"></i>Bar & Club
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Have a Questions?</h4>
+                        <ul>
+                            <li class="list-group-item">203 Fake St. Mountain
+                                View, San <br /> Francisco, California, USA</li>
+                            <li class="list-group-item">+2 392 3929 210
+                            </li>
+                            <li class="list-group-item">info@yourdomain.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /footer -->
+
+    <!-- bootstrap.bundle.min.js -->
+    <script src=" js/bootstrap.bundle.min.js"></script>
+    <!-- /bootstrap.bundle.min.js -->
+    <!-- main java script -->
+    <script src="/main.js"></script>
+    <!-- /main java script -->
+
+
+
+
+</body>
+
+</html>
