@@ -1,54 +1,59 @@
-.dir-l {
-    flex-grow: 11;
+:root {
+    --primary: #ff414d;
+    --secondary: white;
 }
 
+/* !header */
 .img-main {
     background-image: url("/images/header-pic.webp");
     background-size: 100% 100%;
     height: 850px;
 }
 
+/* /header */
+/* !main */
+.crd-tp {
+    margin-top: -80px;
+}
+
 .food-drink {
     width: 40px;
     font-size: 40px;
-    color: #ff414d;
+    color: var(--primary) !important;
+}
+
+.card:hover .food-drink {
+    background: var(--primary) !important;
+    color: var(--secondary) !important;
+}
+
+.card:hover {
+    background: var(--primary) !important;
+    color: var(--secondary) !important;
 }
 
 #hotel {
-    background-color: #ff414d;
-    color: white;
+    background: var(--primary);
+    color: var(--secondary) !important;
 }
 
 .sp-text {
-    background-color: white;
+    background: var(--secondary) !important;
     color: #ff414d;
 }
 
 .fa-hotel {
-    color: white;
+    color: var(--secondary) !important;
 }
 
-.c-tp {
-    margin-top: -80px;
-}
 
 #hotel:hover {
-    background-color: #ff414d;
-}
-
-.card:hover .food-drink {
-    background-color: #ff414d;
-    color: white;
+    background: var(--primary) !important;
 }
 
 .card:hover span {
-    background-color: white;
-    color: #ff414d;
-}
-
-.card:hover {
-    background-color: #ff414d;
-    color: white;
+    background: var(--secondary) !important;
+    color: var(--primary) !important;
 }
 
 .hunger-box {
@@ -56,19 +61,19 @@
     height: 70px;
     font-size: 40px;
     background-color: #ff414d;
-    color: white;
+    color: var(--secondary) !important;
     border-radius: 50%;
 }
 
 .c-box:hover {
-    background-color: white;
+    background: var(--secondary) !important;
     color: black;
 }
 
 .heart-fa {
     background-color: lightgray;
     border-radius: 50%;
-    color: #ff414d;
+    color: var(--primary) !important;
     width: 25px;
     height: 25px;
     padding: 4px;
@@ -76,9 +81,9 @@
 }
 
 .heart-fa:hover {
-    background-color: #ff414d;
+    background: var(--primary) !important;
     border-radius: 50%;
-    color: white;
+    color: var(--secondary) !important;
 }
 
 .sp-btn {
@@ -123,11 +128,11 @@
 }
 
 .card-h {
-    background-color: white;
+    background-color: var(--secondary) !important;
 }
 
 .card-h:hover {
-    background-color: white;
+    background: var(--secondary) !important;
     color: black;
 }
 
@@ -137,11 +142,11 @@
 }
 
 .blog-c {
-    background-color: white;
+    background: var(--secondary) !important;
 }
 
 .blog-c:hover {
-    background-color: white;
+    background: var(--secondary) !important;
     color: black;
 }
 
@@ -150,7 +155,7 @@
 }
 
 .f-about:hover {
-    color: #ff414d;
+    color: var(--primary) !important;
 }
 
 .img-travel {
@@ -169,5 +174,5 @@
 }
 
 .fut-col:hover {
-    color: #ff414d !important;
+    color: var(--primary) !important;
 }
