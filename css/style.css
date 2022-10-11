@@ -20,6 +20,10 @@
     margin-top: -80px;
 }
 
+.card-hight {
+    width: 200px;
+}
+
 .card:hover {
     background: var(--primary) !important;
     color: black !important;
@@ -60,6 +64,10 @@
 
 .c-box {
     width: 288px;
+}
+
+.card-box-hight {
+    height: 190px;
 }
 
 .c-box:hover {
