@@ -1,6 +1,7 @@
 :root {
     --primary: #ff414d;
     --secondary: white;
+    --blog-bg: #f0f4f7;
 }
 
 /* !header */
@@ -11,9 +12,17 @@
 }
 
 /* /header */
+
 /* !main */
+
+/* !card */
 .crd-tp {
     margin-top: -80px;
+}
+
+.card:hover {
+    background: var(--primary) !important;
+    color: black !important;
 }
 
 .food-drink {
@@ -22,18 +31,16 @@
     color: var(--primary) !important;
 }
 
-.card:hover .food-drink {
-    background: var(--primary) !important;
-    color: var(--secondary) !important;
-}
-
-.card:hover {
-    background: var(--primary) !important;
-    color: var(--secondary) !important;
-}
-
 #hotel {
     background: var(--primary);
+    color: var(--secondary) !important;
+}
+
+#hotel:hover {
+    background: var(--primary) !important;
+}
+
+.fa-hotel {
     color: var(--secondary) !important;
 }
 
@@ -42,36 +49,35 @@
     color: #ff414d;
 }
 
-.fa-hotel {
-    color: var(--secondary) !important;
-}
-
-
-#hotel:hover {
-    background: var(--primary) !important;
-}
-
 .card:hover span {
     background: var(--secondary) !important;
     color: var(--primary) !important;
+}
+
+/* /card */
+
+/* !papular cards */
+
+.c-box {
+    width: 288px;
+}
+
+.c-box:hover {
+    background: var(--secondary) !important;
+    color: black !important;
 }
 
 .hunger-box {
     width: 70px;
     height: 70px;
     font-size: 40px;
-    background-color: #ff414d;
+    background-color: #ff414d !important;
     color: var(--secondary) !important;
     border-radius: 50%;
 }
 
-.c-box:hover {
-    background: var(--secondary) !important;
-    color: black;
-}
-
 .heart-fa {
-    background-color: lightgray;
+    background-color: lightgray !important;
     border-radius: 50%;
     color: var(--primary) !important;
     width: 25px;
@@ -86,30 +92,57 @@
     color: var(--secondary) !important;
 }
 
-.sp-btn {
+/* /papular cards */
+
+/* !card image with content */
+.special-offer {
     margin-top: 100px;
-    padding: 15px;
+}
+
+/* /card image with content */
+
+/* !about company client */
+.about {
+    width: 9rem;
 }
 
 .card-about-company {
-    background-color: rgb(0 0 0 / 3%);
+    background-color: rgb(0 0 0 / 3%) !important;
 }
 
 .card-about-company:hover {
-    background-color: rgb(0 0 0 / 3%);
+    background-color: rgb(0 0 0 / 3%) !important;
 }
 
-.v-section .icon-video {
-    width: 80px !important;
-    height: 80px;
-    border-radius: 50%;
-    display: block;
-    background: #fff;
-    margin: 0 auto;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse 2s infinite;
+/* /about company client */
+
+/* !testimonial */
+#card-robert:hover {
+    background: var(--secondary) !important;
 }
 
+#market-manager:hover {
+    background: var(--secondary) !important;
+}
+
+#market-head:hover {
+    background: var(--secondary) !important;
+}
+
+.fa-quote-left {
+    width: 30px;
+    height: 30px;
+}
+
+.img-robert-scott {
+    border-radius: 100%;
+    width: 60px;
+    object-fit: fill;
+}
+
+/* /testimonial */
+
+/* !img with card */
 .find-out {
     background-image: url("/images/dark-img.webp");
     height: 600px;
@@ -119,13 +152,17 @@
     margin-top: -230px;
 }
 
-.s-offer {
-    margin-top: 100px;
+.blog-our {
+    background: var(--blog-bg) !important;
 }
 
-.blog-our {
-    background-color: #f0f4f7;
+.blog-our:hover {
+    background: var(--blog-bg) !important;
 }
+
+/* /img with card */
+
+/* !our blog */
 
 .card-h {
     background-color: var(--secondary) !important;
@@ -133,46 +170,39 @@
 
 .card-h:hover {
     background: var(--secondary) !important;
-    color: black;
-}
-
-.blog-img {
-    border-radius: 100%;
-    width: 30px;
-}
-
-.blog-c {
-    background: var(--secondary) !important;
-}
-
-.blog-c:hover {
-    background: var(--secondary) !important;
-    color: black;
-}
-
-.footer {
-    background-color: #10151c;
-}
-
-.f-about:hover {
-    color: var(--primary) !important;
-}
-
-.img-travel {
-    border-radius: 100%;
-    width: 40px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.pic-h {
-    height: 200px;
+    color: black !important;
 }
 
 .card-h {
     height: auto;
 }
 
+/* /our blog */
+
+.card:hover .food-drink {
+    background: var(--primary) !important;
+    color: var(--secondary) !important;
+}
+
+.pic-h {
+    height: 200px;
+}
+
+/* /our blog */
+
+/* /main */
+
+/* !footer */
+.footer-main {
+    background-color: #10151c !important;
+}
+
 .fut-col:hover {
     color: var(--primary) !important;
 }
+
+.f-about:hover {
+    color: var(--primary) !important;
+}
+
+/* /footer */
